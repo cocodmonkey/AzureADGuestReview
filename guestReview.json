@@ -76,7 +76,7 @@
         }
     },
     "variables": {
-        "nestedTemplateFolder": "https://raw.githubusercontent.com/nicolonsky/AzureADGuestReview/master/NestedTemplates/",
+        "nestedTemplateFolder": "https://raw.githubusercontent.com/cocodmonkey/AzureADGuestReview/master/NestedTemplates/",
         "keyVaultTemplateUrl": "keyVault.json",
         "logicAppTemplateUrl": "logicApp.json",
         "functionAppTemplateUrl": "functionApps.json"
