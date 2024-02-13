@@ -156,14 +156,13 @@
                 "name": "Standard_LRS",
                 "tier": "Standard"
             },
-            "kind": "Storage",
+            "kind": "StorageV2",
             "properties": {
-                "networkAcls": {
-                    "bypass": "AzureServices",
-                    "virtualNetworkRules": [],
-                    "ipRules": [],
-                    "defaultAction": "Deny"
-                }
+                "supportsHttpsTrafficOnly": true,
+                "accessTier": "Hot",
+                "allowBlobPublicAccess": false
+            }
+
             }
         },
         {
